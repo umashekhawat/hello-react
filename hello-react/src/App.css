@@ -1,23 +1,28 @@
 .app {
   min-height: 100vh;
-  background: #4B5320;
+  background-color: #4B5320;
   text-align: center;
   padding-top: 100px;
   font-family: Arial, sans-serif;
 }
 
 h1 {
-  display: inline-block;
-  background: #C3B091;
   color: #263A16;
-  padding: 20px 50px;
+  background-color: #C3B091;
+  padding: 20px 40px;
   border-radius: 12px;
-  font-size: 45px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: inline-block;
 }
 
 p {
   color: #F0E6D2;
   font-size: 22px;
-  margin-top: 25px;
+}
+
+button {
+  background-color: #C3B091;
+  color: #263A16;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
 }

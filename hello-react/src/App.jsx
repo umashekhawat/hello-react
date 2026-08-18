@@ -1,7 +1,7 @@
-import './App,css';
+import './App.css';
 function App(){
   return (
-    <div>
+    <div className='app'>
       <h1>Welcome to My React App 🚀</h1>
       <h2>Hello, React!</h2>
       <p>This is my first React practical.</p>
